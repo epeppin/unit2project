@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+#rules, #compChoice {
+    margin-top: 50px;
+    margin-right: 50px;
+    float: left;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+.selected {
+    border: 2px darkred solid;
+    color: darkred;
+}
+.textSelect {
+    color: darkred;
+    font-weight: bold;
+}
+.won{
+    color: green;
+    font-weight: bold;
+}

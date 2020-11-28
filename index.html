@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Rock-Paper-Scissors-Lizard-Spock</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+          integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+
+    <div id="rules">
+        <p>
+        <h4>Challenge the computer!</h4><br>
+        <strong>Please select a weapon ---></strong><br>
+        <br>
+        <br>
+        The winner is determined by the following outcomes:<br>
+        <span id="scP"> > Scissors cuts Paper </span><br>
+        <span id="pcR"> > Paper covers Rock </span><br>
+        <span id="rcL"> > Rock crushes Lizard </span><br>
+        <span id="lpS"> > Lizard poisons Spock </span><br>
+        <span id="ssS"> > Spock smashes Scissors </span><br>
+        <span id="sdL"> > Scissors decapitates Lizard </span><br>
+        <span id="leP"> > Lizard eats Paper </span><br>
+        <span id="pdS"> > Paper disproves Spock </span><br>
+        <span id="svR"> > Spock vaporizes Rock </span><br>
+        <span id="rcS"> > Rock crushes Scissors </span>
+        </p>
+        <h4>Best 2 out of 3 wins!</h4>
+        <span id="roundWin"></span><br>
+        <span id="countLine">Player:  <span id="playerCount"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Computer:  <span
+                id="compCount"></span></span><br>
+        <span id="finalOutcome"></span>
+    </div>
+
+    <div class="container">
+
+        <div class="row">
+            <div class="col">
+                <h1>Rock-Paper-Scissors-Lizard-Spock</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <figure class="weapon">
+                    <img src="img/800px-Clenched_human_fist.png" alt="Rock Symbol" width="200" height="150"
+                         id="rock">
+                    <figcaption>Rock</figcaption>
+                </figure>
+            </div>
+            <div class="col">
+                <figure class="weapon">
+                    <img src="img/paper.png" alt="Paper Symbol" width="200" height="150" id="paper">
+                    <figcaption>Paper</figcaption>
+                </figure>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-3"></div>
+            <div class="col">
+                <figure class="weapon">
+                    <img src="img/scissors.png" alt="Scissors Symbol" width="200" height="150"
+                         id="scissor">
+                    <figcaption>Scissors</figcaption>
+                </figure>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <figure class="weapon">
+                    <img src="img/lizard.jpg" alt="Lizard Symbol" width="200" height="150" id="lizard">
+                    <figcaption>Lizard</figcaption>
+                </figure>
+            </div>
+            <div class="col">
+                <figure class="weapon">
+                    <img src="img/vulcansalute-pd-wikimedia-turbokoala.png" alt="Spock Symbol" width="200"
+                         height="150" id="spock">
+                    <figcaption>Spock</figcaption>
+                </figure>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                Computer Choice: <span id="compChoice"></span>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+            integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.2/dist/jquery.validate.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+            crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
