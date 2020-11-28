@@ -13,8 +13,8 @@ $(document).ready(
         $("#compCount").text(computerWinCount)
 
         function resetGame() {
-            $("#roundWin").empty().removeClass("textSelect", "won")
-            $("#finalOutcome").empty().removeClass("textSelect", "won")
+            $("#roundWin").empty().removeClass("won")
+            $("#finalOutcome").empty().removeClass("won")
             $("#compChoice").empty()
             selectedWeapon = "";
             playerWinCount = 0;
