@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 
-#rules, #compChoice {
+#rules {
     margin-top: 50px;
     margin-right: 50px;
     float: left;

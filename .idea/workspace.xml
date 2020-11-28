@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5da7c303-18e1-4de5-b379-3b9b70171015" name="Default Changelist" comment="" />
+    <list default="true" id="5da7c303-18e1-4de5-b379-3b9b70171015" name="Default Changelist" comment="Initial Commit">
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,7 +19,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1ktUbjKoRGXiH9Whx15uMB3hdog" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -37,17 +43,41 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1606519454938</updated>
-      <workItem from="1606519455986" duration="19443000" />
+      <workItem from="1606519455986" duration="19849000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial Commit">
+      <created>1606587934300</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1606587934300</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1180" y="334" key="FileChooserDialogImpl" timestamp="1606580972034">
       <screen x="-1920" y="0" width="1920" height="1160" />
     </state>
     <state x="-1180" y="334" key="FileChooserDialogImpl/-973.1200.1920.1040/-1920.0.1920.1160/0.0.1920.1160@-1920.0.1920.1160" timestamp="1606580972034" />
+    <state x="-1087" y="477" key="Github.ShareDialog" timestamp="1606587900350">
+      <screen x="-1920" y="0" width="1920" height="1160" />
+    </state>
+    <state x="-1087" y="477" key="Github.ShareDialog/-973.1200.1920.1040/-1920.0.1920.1160/0.0.1920.1160@-1920.0.1920.1160" timestamp="1606587900350" />
+    <state x="-1189" y="284" key="Github.UntrackedFilesDialog" timestamp="1606587906248">
+      <screen x="-1920" y="0" width="1920" height="1160" />
+    </state>
+    <state x="-1189" y="284" key="Github.UntrackedFilesDialog/-973.1200.1920.1040/-1920.0.1920.1160/0.0.1920.1160@-1920.0.1920.1160" timestamp="1606587906248" />
+    <state x="-1368" y="312" key="Vcs.Push.Dialog.v2" timestamp="1606588115308">
+      <screen x="-1920" y="0" width="1920" height="1160" />
+    </state>
+    <state x="-1368" y="312" key="Vcs.Push.Dialog.v2/-973.1200.1920.1040/-1920.0.1920.1160/0.0.1920.1160@-1920.0.1920.1160" timestamp="1606588115308" />
   </component>
 </project>
