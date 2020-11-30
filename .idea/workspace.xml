@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5da7c303-18e1-4de5-b379-3b9b70171015" name="Default Changelist" comment="Fix text select on finish 2">
+    <list default="true" id="5da7c303-18e1-4de5-b379-3b9b70171015" name="Default Changelist" comment="Fix text select on finish 3">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,7 +44,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1606519454938</updated>
-      <workItem from="1606519455986" duration="20271000" />
+      <workItem from="1606519455986" duration="22118000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1606587934300</created>
@@ -73,7 +74,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606588332572</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Fix text select on finish 3">
+      <created>1606588562018</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1606588562018</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -83,7 +91,8 @@
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="Fix text select on finish" />
     <MESSAGE value="Fix text select on finish 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix text select on finish 2" />
+    <MESSAGE value="Fix text select on finish 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix text select on finish 3" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1180" y="334" key="FileChooserDialogImpl" timestamp="1606580972034">
@@ -98,9 +107,9 @@
       <screen x="-1920" y="0" width="1920" height="1160" />
     </state>
     <state x="-1189" y="284" key="Github.UntrackedFilesDialog/-973.1200.1920.1040/-1920.0.1920.1160/0.0.1920.1160@-1920.0.1920.1160" timestamp="1606587906248" />
-    <state x="-1368" y="312" key="Vcs.Push.Dialog.v2" timestamp="1606588333913">
+    <state x="-1368" y="312" key="Vcs.Push.Dialog.v2" timestamp="1606588563090">
       <screen x="-1920" y="0" width="1920" height="1160" />
     </state>
-    <state x="-1368" y="312" key="Vcs.Push.Dialog.v2/-973.1200.1920.1040/-1920.0.1920.1160/0.0.1920.1160@-1920.0.1920.1160" timestamp="1606588333913" />
+    <state x="-1368" y="312" key="Vcs.Push.Dialog.v2/-973.1200.1920.1040/-1920.0.1920.1160/0.0.1920.1160@-1920.0.1920.1160" timestamp="1606588563090" />
   </component>
 </project>

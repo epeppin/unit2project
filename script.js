@@ -5,14 +5,20 @@ $(document).ready(
         var computerWinCount = 0;
         var gameCount = 0;
         // add event handlers
+        //weapon selection
         $(".weapon img").click(selectWeapon)
+        //start game
         $(".weapon img").click(playGame)
+        //game reset
         $("#newGame").click(resetGame)
         // all functions (program logic)
+        //display 0's for play
         $("#playerCount").text(playerWinCount)
         $("#compCount").text(computerWinCount)
 
+
         function resetGame() {
+            //remove classes and reset everything to 0
             $("#roundWin").empty().removeClass("won")
             $("#finalOutcome").empty().removeClass("won")
             $("#compChoice").empty()
@@ -39,15 +45,16 @@ $(document).ready(
 
         function playGame() {
 
+            //reset players choice
             var playerChoice = 0;
-
+            //chose computers choice
             var computerChoice = Math.floor(Math.random() * 5) + 1;
 
             var computerWeapon = "";
 
             $("p span, #pdS, #svR, #sdL, #leP, #rcL, #scP, #rcS, #pcR, #lpS, #ssS").removeClass("textSelect")
             $("#roundWin").removeClass("won", "textSelect")
-
+            //capture computer choice text
             switch (computerChoice) {
                 case 1:
                     computerWeapon = "Rock"
@@ -65,7 +72,7 @@ $(document).ready(
                     computerWeapon = "Spock"
                     break;
             }
-
+            //assign player choice a number
             switch (selectedWeapon) {
                 case "rock":
                     playerChoice = 1
@@ -83,15 +90,21 @@ $(document).ready(
                     playerChoice = 5
                     break;
             }
-
+            //loop through till end of game
             while (gameCount < 3) {
+                //check each computer choice vs the player choice
                 if (computerChoice === 1) {
                     $("#compChoice").text(computerWeapon).addClass("textSelect")
                     if (playerChoice === 2) {
+                        //add to player or computer win count
                         playerWinCount++
+                        //add to total rounds
                         gameCount++
+                        //display who won
                         $("#roundWin").text("Player Wins").addClass("won")
+                        //add show total win count on winner
                         $("#playerCount").text(playerWinCount)
+                        //show what rule was used
                         $("#pcR").addClass("textSelect")
                         return
                     } else if (playerChoice === 3) {
@@ -254,7 +267,7 @@ $(document).ready(
                     }
 
                 }
-
+                //determine if player has more wins then computer and display winner and new game button
             } if (playerWinCount > computerWinCount) {
                 $("#playerCount").text(playerWinCount)
                 $("#roundWin").text("Game Over");
